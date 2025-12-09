@@ -5,5 +5,9 @@ export interface HelloProps {
 }
 
 export const Hello: React.FC<HelloProps> = ({ name }) => {
-  return <h1>Hello, {name}!</h1>;
+
+
+  return <h1>
+    Hello, {name}!
+  </h1>;
 };
